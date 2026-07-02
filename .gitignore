@@ -1,0 +1,10 @@
+# KiCad junk files
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.log
+
+# KiCad autosave/history
+.history/
+schematic/.history/
