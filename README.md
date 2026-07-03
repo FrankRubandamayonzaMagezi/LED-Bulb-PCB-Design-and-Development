@@ -6,7 +6,7 @@
 
 This repository documents the design and development of a **5 W, 240 VAC LED bulb PCB**. The project follows the complete engineering workflow from schematic capture and PCB layout to simulation, PCB manufacturing, assembly and hardware testing.
 
-The work is being carried out as part of the **Makerere University UNIPOD Internship Programme** under the **Schematic Capture & PCB Layout Design** track. The aim is to design an affordable, reliable and energy-efficient LED bulb suitable for indoor lighting while gaining practical experience in professional PCB design and electronics manufacturing.
+The aim is to design an affordable, reliable and energy-efficient LED bulb suitable for indoor lighting while gaining practical experience in professional PCB design and electronics manufacturing.
 
 ---
 
@@ -258,13 +258,7 @@ Working on this project has provided practical experience in:
 - Git and GitHub
 - Engineering documentation
 
----
 
-## Acknowledgements
-
-This project is being carried out during the **Makerere University UNIPOD Internship Programme** under the **Schematic Capture & PCB Layout Design** track. The internship provides practical exposure to PCB design, electronics manufacturing and product development.
-
----
 
 ## License
 
