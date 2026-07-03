@@ -12569,7 +12569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 134.62 93.472 90)
 			(hide yes)
 			(show_name no)
@@ -12970,7 +12970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 172.72 44.7548 0)
 			(hide yes)
 			(show_name no)
@@ -13129,7 +13129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 134.62 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -13485,7 +13485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc450dd-c4dd-4172-abd3-bae83a64b6ab")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 96.52 57.658 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13505,7 +13505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 96.52 61.468 90)
 			(hide yes)
 			(show_name no)
@@ -13547,7 +13547,7 @@
 		(instances
 			(project "Schematic diagram"
 				(path "/509f40a6-23b7-4cf5-b2bb-68779ae2f401"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13664,7 +13664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 185.42 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -13724,7 +13724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c337db-7f21-4aab-a53f-b939d3939506")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 233.68 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13746,7 +13746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.362 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -13788,7 +13788,7 @@
 		(instances
 			(project "Schematic diagram"
 				(path "/509f40a6-23b7-4cf5-b2bb-68779ae2f401"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13826,7 +13826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 200.66 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -13886,7 +13886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c34c000-0dab-4ba2-a776-044f968ba970")
-		(property "Reference" "R5"
+		(property "Reference" "R0"
 			(at 48.26 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +13948,7 @@
 		(instances
 			(project "Schematic diagram"
 				(path "/509f40a6-23b7-4cf5-b2bb-68779ae2f401"
-					(reference "R5")
+					(reference "R0")
 					(unit 1)
 				)
 			)
@@ -14244,7 +14244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91e1440-4e4f-49c8-b79d-3bf76185996a")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 181.61 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14264,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.61 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -14306,7 +14306,7 @@
 		(instances
 			(project "Schematic diagram"
 				(path "/509f40a6-23b7-4cf5-b2bb-68779ae2f401"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14423,7 +14423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 216.8652 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14590,7 +14590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 116.205 105.41 0)
 			(hide yes)
 			(show_name no)

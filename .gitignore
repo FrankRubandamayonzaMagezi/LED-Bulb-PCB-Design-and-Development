@@ -8,3 +8,15 @@
 # KiCad autosave/history
 .history/
 schematic/.history/
+
+# KiCad history
+.history/
+
+# KiCad local settings
+*.kicad_prl
+
+# Proteus workspace files
+*.workspace
+
+# Proteus backup files
+Project Backups/
