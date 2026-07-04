@@ -160,6 +160,14 @@ The simulation confirms successful AC-to-DC conversion and demonstrates the oper
 
 ---
 
+## Oscilloscope Waveform Verification
+
+An oscilloscope was connected during the Proteus simulation to observe the AC input and the rectified DC output of the bridge rectifier. The captured waveforms verify the AC-to-DC conversion process by showing the sinusoidal AC input and the rectified DC output before filtering and after filtering. This confirms the correct operation of the bridge rectifier and smoothing capacitor before the power is supplied to the LED load.
+
+![Oscilloscope Waveform Analysis](images/Oscilloscope_waveforms.png)
+
+---
+
 # Project Gallery
 
 ## Schematic Diagram
