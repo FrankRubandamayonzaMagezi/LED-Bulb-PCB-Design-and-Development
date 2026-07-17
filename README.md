@@ -226,6 +226,54 @@ Bridge rectifier simulation demonstrating AC-to-DC conversion.
 
 ---
 
+# PCB Fabrication Equipment
+
+The fabrication process involves several specialized machines that support PCB production from raw copper-clad boards to finished printed circuit boards.
+
+The following equipment will be used during the manufacturing process.
+
+---
+
+## PCB Prototyping Process
+
+The PCB prototyping workflow illustrates the sequence of manufacturing steps used to transform the PCB design into a physical circuit board.
+
+![PCB Prototyping Process](fabrication/Prototyping_process.jpeg)
+
+---
+
+## Through-Hole PCB
+
+Example of a through-hole PCB used during the fabrication and assembly process.
+
+![Through-Hole PCB](fabrication/Through_hole.jpeg)
+
+---
+
+## Through-Hole Drilling Machine
+
+Machine used for drilling component mounting holes after PCB fabrication.
+
+![Through-Hole Drilling Machine](fabrication/Through_hole_machine.jpeg)
+
+---
+
+## Circuit Board Buffing Machine
+
+Used to clean and polish the PCB surface before and after various fabrication processes, improving surface quality and solderability.
+
+![Circuit Board Buffing Machine](fabrication/circuit_board_buffing_machine.jpeg)
+
+---
+
+## Spray Stripping Machine
+
+Used to remove photoresist after the PCB etching process, leaving the required copper traces on the board.
+
+![Spray Stripping Machine](fabrication/spray_stripping_machine.jpeg)
+
+---
+
 ## Engineering Considerations
 
 During the PCB design process, attention was given to:
