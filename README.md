@@ -33,9 +33,9 @@ The objectives of this project are to:
 - ✅ PCB routing completed
 - ✅ 3D PCB verification completed
 - ✅ AC-to-DC bridge rectifier simulation completed
-- 🔄 Gerber generation (In Progress)
-- ⏳ PCB fabrication
-- ⏳ Component assembly
+- ✅ Gerber generation
+- 🔄 PCB fabrication (Training completed- LED bulb PCB fabrication in progress)
+- 🔄 Component assembly
 - ⏳ Hardware testing
 - ⏳ Final product evaluation
 
@@ -65,6 +65,8 @@ This project demonstrates practical experience in:
 - PCB 3D verification
 - Circuit simulation using Proteus
 - Power electronics
+- PCB fabrication techniques
+- Electronics manufacturing
 - Git and GitHub version control
 - Engineering documentation
 
@@ -272,6 +274,86 @@ Used to remove photoresist after the PCB etching process, leaving the required c
 
 ![Spray Stripping Machine](fabrication/spray_stripping_machine.jpeg)
 
+---
+
+# PCB Fabrication Training
+
+Before manufacturing the LED bulb PCB, practical PCB fabrication techniques were carried out using a **12 V to 5 V Buck Converter** as a training project. This provided hands-on experience with the complete PCB fabrication workflow and the operation of the equipment available in the PCB fabrication laboratory.
+
+The objective was to understand how a PCB progresses from a digital design to a fully fabricated circuit board before applying the same techniques to the LED bulb project.
+
+The fabrication process followed these stages:
+
+- A single-layer copper-clad PCB was selected because the circuit required only one copper layer and no vias.
+- The copper surface was thoroughly cleaned to remove contaminants and improve toner adhesion.
+- The PCB layout was printed onto transfer paper and transferred onto the copper-clad board using the toner transfer method with heat and pressure.
+- The board was immersed in Ferric Chloride solution to chemically etch away the exposed copper, leaving only the required PCB traces protected by the toner.
+- The remaining toner was removed using ethanol, exposing clean copper tracks on the FR4 substrate.
+- The fabricated PCB was then prepared for the remaining finishing processes, including drilling, solder mask application and silkscreen printing.
+
+This practical exercise provided valuable experience in PCB fabrication techniques, chemical etching, surface preparation and manufacturing processes that will be applied during the fabrication of the 5 W LED bulb PCB developed in this repository.
+
+## From Digital Design to Copper-Clad Board
+
+The PCB fabrication process began by preparing a clean copper-clad board while referencing the digital PCB layout. This marked the transition from the computer-aided PCB design to the physical manufacturing process.
+
+![Digital Schematic to Copper Clad](images/Digital_schematic_to_copper_clad.jpeg)
+
+---
+
+## PCB with Toner Transfer
+
+The PCB layout was transferred onto the cleaned copper-clad board using the toner transfer method. The toner formed a protective layer over the required copper traces before chemical etching.
+
+![PCB with Toner](images/pcb_with_toner.jpeg)
+
+---
+
+## Ferric Chloride Etching
+
+The board was immersed in a Ferric Chloride solution to dissolve the exposed copper while preserving the toner-protected PCB traces.
+
+![Ferric Chloride Etching](fabrication/ferric_chloride_etching.jpeg)
+
+---
+
+## PCB after Toner Removal
+
+After chemical etching, the toner was removed using ethanol to expose the finished copper traces on the FR4 substrate. At this stage, the PCB pattern was fully formed and ready for drilling.
+
+![PCB without Toner](images/pcb_without_toner.jpeg)
+
+---
+
+## PCB Drilling
+
+Component mounting holes were drilled at the required locations using a PCB drilling machine, preparing the board for component placement and soldering.
+
+![PCB Drilling](fabrication/pcb_drilling.jpeg)
+
+---
+
+## Heat Press Machine
+
+A heat press machine was used during the toner transfer process to firmly bond the printed PCB artwork onto the copper-clad board. Proper heat and pressure ensured accurate transfer of the circuit pattern before chemical etching.
+
+![Heat Press](fabrication/heat_press.jpeg)
+
+---
+After chemical etching, the remaining toner was removed using ethanol to expose the finished copper traces on the FR4 substrate. At this stage, the PCB pattern had been successfully transferred onto the board and was ready for the remaining manufacturing processes.
+
+The subsequent fabrication stages typically include:
+
+- PCB drilling for through-hole components and mounting holes
+- Surface cleaning and inspection
+- Tin coating or surface finishing (where applicable) to protect exposed copper
+- Solder mask application to insulate and protect the copper traces from oxidation and accidental short circuits
+- Silkscreen printing to add component labels, reference designators and other markings
+- Electrical continuity and quality inspection
+- Component assembly and soldering
+- Functional testing of the completed PCB
+
+These finishing processes transform the etched PCB into a fully assembled and production-ready electronic circuit.
 ---
 
 ## Engineering Considerations
